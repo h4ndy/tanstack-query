@@ -44,10 +44,10 @@ export default function Home() {
  
   return (
     <div className="container mx-auto p-8">
-          { !fetchedProducts && (
+    { !fetchedProducts && (
        <button onClick={() => setFetchedProducts(true)}>Show All Product</button>
      )}     
-     
+
      
       {showToast && (
         <div className="fixed top-4 right-4 z-50 bg-green-400 text-white px-4 py-2 shadow-sm">
